@@ -4,7 +4,7 @@ import { IoStatsChart } from "react-icons/io5";
 import { FaCartPlus } from "react-icons/fa";
 import { IoIosHelpCircle } from "react-icons/io";
 
-export const SidebarData = (
+export const SidebarData = [
     {
         title : 'Produtcs',
         path : '/Produtcs',
@@ -29,4 +29,4 @@ export const SidebarData = (
         icon : <IoIosHelpCircle/>,
         cName : 'nav-text',
     }
-)
+]
